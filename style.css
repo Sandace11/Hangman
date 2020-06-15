@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent {
+    margin: 2em;
+    
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.container img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+
+.container{
+    text-align: center;
+    vertical-align : middle;
+}
+
+.vertical-align {
+    margin: auto;
+}
+
+
+.title {
+    text-align: center;
+}
+.balsamiq {
+    font-size: 54px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.museo {
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.version {
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#lives {
+    color: red;
+}
+
+
+.container2 {
+    margin-top: 2em;
+    text-align: center;
+}
+.container2 > h2 {
+    font-family: Baby Blocks;
+    font-size: 5em;
+}
