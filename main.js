@@ -1,5 +1,3 @@
-const wordList = ['KANGAROO', 'MANGO', 'BANANA', 'PINEAPPLE', 'STRAWBERRY', 'LEOPARD'];
-
 let livesRemaining;
 let imageState;
 let currentWord = '';
@@ -29,7 +27,6 @@ function reset() {
         tempWord[i] = currentWord[i];
     }
     userInput.textContent = displayWord.join('');
-
     displayOutput();
     
 }
@@ -75,11 +72,11 @@ document.addEventListener("keydown", function(e) {
                 displayOutput();
             }
         }
-        console.log("lives = " + livesRemaining);
-        console.log("imageState = " + imageState);
-        console.log("tempWord = " + tempWord);
-        console.log("displayWord = " + displayWord);
-        console.log("enteredStack = " + enteredKeyStack);
+        // console.log("lives = " + livesRemaining);
+        // console.log("imageState = " + imageState);
+        // console.log("tempWord = " + tempWord);
+        // console.log("displayWord = " + displayWord);
+        // console.log("enteredStack = " + enteredKeyStack);
         
     }
 });
