@@ -1,3 +1,13 @@
+@font-face {font-family: "Baby Blocks"; 
+    src: url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.eot"); 
+    src: url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.eot?#iefix") format("embedded-opentype"), 
+         url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.woff2") format("woff2"), 
+         url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.woff") format("woff"), 
+         url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.ttf") format("truetype"), 
+         url("//db.onlinewebfonts.com/t/2ea8b1d5b2996dd13cf8b90d4327d9b1.svg#Baby Blocks") format("svg"); 
+} 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +15,7 @@
 
 
 .parent {
-    margin: 2em;
-    
+    margin: .5em 2em 2em 0;
 }
 
 .container {
@@ -17,9 +26,8 @@
 
 
 .container img {
-    margin-top: 20px;
     margin-left: 20px;
-    width: 400px;
+    width: 250px;
 }
 
 
@@ -42,7 +50,7 @@
 }
 
 .museo {
-    padding-top: 50px;
+    padding-top: 10px;
     font-size: 35px;
     font-family: 'MuseoModerno', cursive;
 }
@@ -61,7 +69,10 @@
     margin-top: 2em;
     text-align: center;
 }
+
+
 .container2 > h2 {
+    margin-top: 1em;
     font-family: Baby Blocks;
     font-size: 5em;
 }
