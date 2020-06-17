@@ -1,2 +1,3 @@
-# Sandace11.github.io
-Hangman v1.0
+# Hangman
+
+Sandace11.github.io
