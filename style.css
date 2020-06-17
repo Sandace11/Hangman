@@ -15,7 +15,7 @@
 
 
 .parent {
-    margin: .5em 2em 2em 0;
+    margin: 2em 2em 2em 0;
 }
 
 .container {
@@ -62,6 +62,11 @@
 
 #lives {
     color: red;
+}
+
+#solution {
+    margin-top: -10px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
